@@ -1,0 +1,284 @@
+
+:root{
+    --clr-primary-400: #FD841F;
+    --clr-secondary-400:  #13004D;
+    
+    --clr-accent-900: hsl(238, 64%, 16%);
+
+    --clr-ntural-900: hsl(0, 0%, 0%);
+    --clr-ntural-400: #333;
+    --clr-ntural-300:hsl(0, 0%, 71%);
+    --clr-ntural-200:#f9f9f9;
+    --clr-ntural-100:hsl(0, 0%, 100%);
+
+
+    --ff-primary: 'Poppins', sans-serif;
+    --ff-secondary: 'Inter', sans-serif;
+    --ff-accent: 'Rubik', sans-serif;
+
+    --ff-body: var(--ff-primary);
+    --ff-heading: var(--ff-secundary);
+    --ff-btn: var(--ff-accent);
+
+    --fw-l: 400;
+    --fw-n: 500;
+    --fw-m: 600;
+    --fw-b: 700;
+    --fw-vb:900;
+
+    --fs-100: .75rem;/*12*/
+    --fs-200: .87rem;/*14*/
+    --fs-300: .937rem;/*15*/
+    --fs-400: 1rem;/*16*/
+    --fs-500: 1.125rem;/*18*/
+    --fs-600: 1.65rem;/*26*/
+    --fs-700: 2.25rem;/*36*/
+    --fs-800: 2.62rem;/*42*/
+    --fs-900: 4rem;/*44*/
+
+    --fs-body: var(--fs-400);
+    --fs-primary-heading: var(--fs-900);
+    --fs-secondary-heading: var(--fs-800);
+    --fs-third-heading: var(--fs-700);
+    --fs-fourth-heading: var(--fs-600);
+
+    --fs-nav: var(--fs-200);
+    --fs-button: var(--fs-200);
+
+}
+
+/* utility classes */
+
+/* Margin Top */
+
+.margin-top-0 {
+	margin-top: 0px !important;
+}
+
+.margin-top-10 {
+	margin-top: 10px !important;
+}
+
+.margin-top-20 {
+	margin-top: 20px !important;
+}
+
+.margin-top-30 {
+	margin-top: 30px !important;
+}
+
+.margin-top-40 {
+	margin-top: 40px !important;
+}
+
+.margin-top-50 {
+	margin-top: 50px !important;
+}
+
+.margin-top-60 {
+	margin-top: 60px !important;
+}
+
+
+/* Colors */
+
+.color-1 {
+	color: #f306a0;
+}
+
+.color-2 {
+	color: #d60bfb;
+}
+
+.color-3 {
+	color: #d8be10;
+}
+
+.color-4 {
+	color: #0fd28a;
+}
+
+.color-5 {
+	color: #f97400;
+}
+
+.color-6 {
+	color: #08a6f3;
+}
+
+.color-7{
+    color: gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
+
+.fs-900{
+    font-size: var(--fs-900);
+}
+
+.color-400{
+    color: var(--clr-primary-400);
+}
+
+
+/* Global Style */
+
+
+body {
+    font-size: 16px;
+    font-weight: var(--fw-n);
+    line-height: 24px;
+    letter-spacing: 1px;
+    height: 100%;
+    font-family: var(--ff-body);
+    background-color: var(--clr-ntural-200) ;
+}
+
+html,
+body {
+    height: 100%
+}
+
+::selection {
+    background-color: var(--clr-primary-400);
+    color:var(--clr-ntural-100);
+}
+
+::-moz-selection {
+    background-color: var(--clr-primary-400);
+    color:var(--clr-ntural-100);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: var(--ff-heading);
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+img {
+    width: 100%;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:focus {
+    outline: none;
+    text-decoration: none;
+}
+
+p {
+    line-height: 32px;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.no-padding {
+    padding: 0
+}
+
+.section-space-padding {
+    padding: 50px 0px;
+}
+
+/* buttons */
+
+.button {
+	border: none;
+	font-family: var(--ff-btn);
+	font-size: inherit;
+	color: inherit;
+	background: none;
+	cursor: pointer;
+	padding: 20px 40px;
+	display: inline-block;
+	margin: 15px 30px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight:  var(--fw-m);
+	outline: none;
+	position: relative;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.button:after {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+
+.button:before {
+	font-family: 'FontAwesome';
+	font-style: normal;
+	font-weight:  var(--fw-l);
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	position: relative;
+	-webkit-font-smoothing: antialiased;
+}
+
+.button-style {
+	border-radius: 50px;
+	border: 2px solid  var(--clr-primary-400);
+	color: var( --clr-ntural-900);
+	overflow: hidden;
+}
+
+
+
+
+.button-style:hover,
+.button-style:active,
+.button-style:focus {
+	background:  var(--clr-primary-400);
+	color:var(--clr-ntural-100) !important;
+}
+
+.button-style:before {
+	position: absolute;
+	height: 100%;
+	font-size: 125%;
+	line-height: 3.5;
+	color: var(--clr-ntural-100);
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.button-style:active:before {
+	color: var(--clr-primary-400);
+}
+
+
+
+.button-style-dark {
+	border: 2px solid var(  --clr-secondary-400) !important;
+	color: var(  --clr-ntural-900);
+}
+
+.button-style-dark:hover {
+	border: 2px solid var(  --clr-primary-400) !important;
+}
+
+
+
