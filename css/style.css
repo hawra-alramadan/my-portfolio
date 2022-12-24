@@ -558,3 +558,149 @@ li {
 
 
 
+/* About Me */
+
+.about-section {
+	overflow: hidden;
+    
+}
+
+
+.about-me h2 {
+	padding: 0px 50px;
+}
+
+.about-me p {
+	padding: 1px;
+	font-size: 16px;
+    max-width: 50ch;
+    word-wrap: break-word;
+}
+
+.project-section .img-responsive{
+    margin: 0 16px;
+    border-radius: 10px;
+}
+
+.container-portfolio{
+    width: 800px;
+    padding: 50px;
+}
+
+.project-deatils  {
+	padding: 0 60px;
+}
+
+.links a{
+    color: var(--clr-primary-400);
+    text-transform: capitalize;
+    transition: 0.3s;
+    padding: 0 15px;
+}
+
+.links a:hover{
+    color: var(--clr-secondary-400);   
+}
+
+/* Portfolio */
+
+
+.portfolio-inner .mix {
+    display: none;
+}
+
+ul.portfolio {
+    padding: 0;
+    list-style: none;
+    margin-top: 30px;
+    margin-left: 8px;
+    text-align: center;
+}
+
+ul.portfolio li {
+    display: inline-block;
+    padding: 8px 12px;
+    margin: 0 8px;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: var(--fw-l);
+    color:var( --clr-ntural-400);
+    border: none;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+ul.portfolio li:hover {
+    color: var( --clr-ntural-900);
+    border: none;
+}
+
+ul.portfolio li.active {
+    color:var(--clr-ntural-100);
+    background-color: var(--clr-primary-400);
+    padding: 5px 20px;
+    border-radius: 20px;
+    box-shadow: 0px 1px 2px 0px rgba(90, 91, 95, 0.15);
+}
+
+.portfolio .item {
+    margin-top: 30px;
+    position: relative;
+
+}
+
+.portfolio .item img {
+    width: 100%;
+    border-radius: 5%;
+}
+
+.item {
+    border-radius: 50%;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+.item {
+    border-radius: 50%;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+
+.portfolio .item:hover a:before{
+  top: 0;
+  box-shadow: 0px 16px 22px 0px rgba(90, 91, 95, 0.3);
+  -webkit-transition: all 400ms ease-in-out;
+          transition: all 400ms ease-in-out;
+}
+
+.portfolio .item a:before{
+  content: "";
+  position: absolute;
+  font-size: 25px;
+  opacity: 0;
+  background-color: rgba(255, 255, 255, 0.208);
+  border-radius: 5%;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all 400ms ease-in-out;
+          transition: all 400ms ease-in-out;
+}
+
+.portfolio .item a:hover:before{
+  opacity: 1;
+}
+
+.mfp-image-holder .mfp-close, .mfp-iframe-holder .mfp-close {
+	margin-top: 40px;
+    font-size: 50px;
+    background-color: var(--clr-primary-400);
+    width: 44px;
+	right: 0px;
+}
+
+.mfp-zoom-out-cur, .mfp-zoom-out-cur .mfp-image-holder .mfp-close {
+    cursor: inherit;
+}
+
+
