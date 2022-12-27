@@ -754,3 +754,40 @@ ul.portfolio li.active {
 
 
 
+/* Footer */
+
+.footer-section {
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+
+.footer-section  p{
+    font-size: 14px;
+    color: var(--clr-secondary-400);
+    transition: 0.3s;
+    
+    }
+    
+
+ .footer-section  a:hover {
+        color: var(--clr-secondary-400);
+     transform: translate(0, -5px);
+  }
+
+  .menu-social-footer{
+    margin-bottom: 50px;
+   display: none;
+}
+
+  .menu-social-footer li{
+    padding: 0 15px;
+}
+
+.justify-content-center{
+    display: flex;
+    justify-content: center;
+}
+  
+  
+
