@@ -704,3 +704,53 @@ ul.portfolio li.active {
 }
 
 
+/* Services */
+
+.services-section {
+  background-color: var(--clr-ntural-200);
+}
+
+
+
+.services-section .services-detail {
+  border-radius: 50px;
+  border-bottom-right-radius: 20%;
+  background-color:var(--clr-ntural-100);
+  box-shadow: 0px 1px 2px 0px rgba(90, 91, 95, 0.15);
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  top: 0px;
+  padding: 50px 40px 50px 40px;
+  margin-top: 32px;
+  min-height: 218px;
+}
+.services-section .services-detail h3{
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.services-section .services-detail:hover {
+  border-bottom-right-radius: 4px;
+  box-shadow: 0px 16px 22px 0px rgba(90, 91, 95, 0.3);
+  top: -5px;
+}
+
+.service-icon {
+  font-size: 42px;
+}
+
+
+
+/* Call to Action */
+
+.call-to-action {
+    padding:100px 0;
+}
+
+.call-to-action h2 {
+	font-size: 40px;
+    color: var(--clr-secondary-400);
+}
+
+
+
