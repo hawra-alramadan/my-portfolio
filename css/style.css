@@ -862,7 +862,9 @@ body.loaded #preloader{
 }
 
 .project-section{
-    padding: 1rem;
+    padding: 1rem; 
+    display: flex;
+    align-items: center;
 }
 
 .project-section .img-responsive{
@@ -877,6 +879,7 @@ body.loaded #preloader{
 
 .project-deatils  {
 	padding: 0 60px;
+    width: 75ch;
 }
 
 .links a{
