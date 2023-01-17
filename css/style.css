@@ -869,6 +869,7 @@ body.loaded #preloader{
 
 .project-section .img-responsive{
     border-radius: 10px;
+    border: 1px solid var(--clr-ntural-300);
 }
 
 
@@ -879,7 +880,9 @@ body.loaded #preloader{
 
 .project-deatils  {
 	padding: 0 60px;
-    width: 75ch;
+    max-width: 100ch;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .links a{
