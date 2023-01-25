@@ -862,15 +862,20 @@ body.loaded #preloader{
 }
 
 .project-section{
+    max-width: 900px;
     padding: 1rem; 
     display: flex;
     align-items: center;
+    margin-left: auto;
+    margin-right: auto;
 }
+    
+
 
 .project-section .img-responsive{
     border-radius: 10px;
     border: 1px solid var(--clr-ntural-300);
-}
+}   
 
 
 .container-portfolio{
